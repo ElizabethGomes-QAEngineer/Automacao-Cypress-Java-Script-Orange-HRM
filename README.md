@@ -1,4 +1,4 @@
-# Automação Cypress Java Script Orange HRM
+# Automação Cypress JavaScript Orange HRM
 
 ![Texto alternativo](OrangeHRM.png)
 
