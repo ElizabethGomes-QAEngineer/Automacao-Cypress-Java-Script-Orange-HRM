@@ -1,4 +1,4 @@
-# Automação Cypress Orange HRM
+# Automação Cypress Java Script Orange HRM
 
 ![Texto alternativo](OrangeHRM.png)
 
@@ -19,7 +19,12 @@ npm install chance
 > 
 > È necessário ter o [Node.js](https://nodejs.org)  instalado
 
+
+
 ## 📝 Passo a Passo para Instalação
+
+
+
 
 **1.** **Clone o repositório na sua maquina 🖥️**
 
