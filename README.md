@@ -29,7 +29,7 @@ npm install chance
 **1.** **Clone o repositório na sua maquina 🖥️**
 
 ```bash
-git clone https://github.com/ElizabethGomes-QAEngineer/Automacao-Cypress-OrangeHRM.git
+git clone https://github.com/ElizabethGomes-QAEngineer/Automacao-Cypress-Java-Script-Orange-HRM.git
 ```
 
 **2.** **Navegue até o diretório do projeto 📂**
