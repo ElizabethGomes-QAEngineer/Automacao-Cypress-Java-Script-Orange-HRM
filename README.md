@@ -42,7 +42,7 @@ cd cypress-hrm
 **3.** **Instale as dependências do projeto 📦**
 
 ```bash
-npm install cypress --save-dev
+npm install 
 ```
 
 **4.** **Execute o Cypress para rodar os testes 🚀**
