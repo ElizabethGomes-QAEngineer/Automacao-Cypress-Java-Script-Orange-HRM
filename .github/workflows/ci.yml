@@ -9,6 +9,13 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
+            - name: Set up Node.js
+              uses: actions/setup-node@v2
+              with:
+                  node-version:  '16'  
+                  cache: 'npm'  
+                  cache-dependency-path: 'package-lock.json'
+
             - name: Cypress Tests 
               uses: cypress-io/github-action@v5
               with: 
