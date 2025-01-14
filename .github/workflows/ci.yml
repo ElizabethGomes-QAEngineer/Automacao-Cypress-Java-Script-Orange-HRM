@@ -9,25 +9,9 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
 
-            - name: Set up Node.js
-              uses: actions/setup-node@v2
-              with:
-                  node-version:  '16'  
-            
-            - name: Cache npm dependencies
-              uses: actions/cache@v2
-              with:
-                 path: ~/.npm
-                 key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-                 restore-keys: |
-                      ${{ runner.os }}-npm-
-
-            - name: Install dependencies
-              run: npm install      
-
-            - name: Cypress Tests 
+            - name: Cypress Tests
               uses: cypress-io/github-action@v5
-              with: 
+              with:      
                   start: 'npm run dev'
                   build: 'npm run build'
                   
